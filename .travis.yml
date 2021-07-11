@@ -6,4 +6,4 @@ before_install:
   - docker build -t josephakayesi/simplefrontend -f Dockerfile.dev .
 
 script:
-  - docker run josephakayesi/simplefrontend npm run test -- --coverage
+  - docker run josephakayesi/simplefrontend npm run test -- --coverage --forceExit
