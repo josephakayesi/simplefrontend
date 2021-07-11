@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <p>Learning Docker from Stephen Grider!</p>
       </header>
     </div>
   );
